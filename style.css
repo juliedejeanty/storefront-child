@@ -1,0 +1,218 @@
+/*
+Theme Name: storefront-child
+Template: storefront
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+
+/* PRODUITS*/
+.produits{
+    display: flex;
+    justify-content: center;
+}
+
+.product_list_widget li img {
+    max-width: 14.617924em;
+    margin-left: 19px;
+}
+
+.product-title{
+    font-size: 24px;
+    color: #333333;
+    margin-left: 60px;
+}
+
+.product_list_widget{
+    display: flex;
+}
+
+/* REASSURANCE*/
+.reassurance{
+    max-width: 17%;
+}
+
+.elementor-widget-wrap{
+    justify-content: center;
+}
+
+.button.product_type_variable.add_to_cart_button{
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 12px;
+    font-weight: 500;
+}
+.button.product_type_variable.add_to_cart_button:hover{
+        background-color: #F0F0F0;
+        color: #333333;
+}
+
+
+.product_list_widget li :nth-child(2){
+    margin-left: 70px;
+}
+
+.beta.site-title{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.site-branding{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-description{
+    display: none;
+}
+
+
+.site-branding .site-title a{
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+}
+
+.search-field{      
+    background-color: transparent!important;
+}
+
+.storefront-primary-navigation{
+    display: flex;
+}
+
+.col-full{
+    max-width: 100%;
+}
+
+.site-header ul.menu li a{
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/* PAGE AFFICHE*/
+.storefront-sorting{
+    display: none;
+}
+
+
+/* PAGE BLOG*/
+
+.hentry .entry-content a:not(.button) .contact{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.hentry .entry-content a:not(.button) {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    color: #333333;
+}
+
+.cat-links{
+    display: none;
+}
+
+/* FOOTER*/
+.widget_nav_menu ul li::before{
+    display: none;
+}
+
+.site-footer a:not(.button) {
+    text-decoration: none;
+    margin-left: -30px;
+    font-weight: 300;
+}
+
+.tnp-form{
+    width: 300px;
+    display: flex;
+}
+
+.textwidget{
+    margin-top: -50px;
+}
+
+.tnp-widget-minimal input.tnp-submit{
+    width: 40%;
+    background-color: white;
+    color: #333;
+    border: 1px solid #3333;
+}
+
+.tnp-widget-minimal input.tnp-email{
+    background-color: white;
+    color: #333;
+    border: none;
+}
+
+.site-info a{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .beta.site-title{
+        margin-left: -40px;
+    }
+
+    .site-content{
+        margin-top: -70px;
+    }
+
+    .elementor-50 .elementor-element.elementor-element-3e03e12 > .elementor-element-populated {
+        margin: 45px 12px 160px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .product_list_widget li :nth-child(2) {
+        margin-left: 0px;
+    }
+
+    .product_list_widget li img {
+        max-width: 8.617924em;
+        margin-left: 11px;
+    }
+
+    .textwidget {
+        margin-top: 37px;
+    }
+
+    .textwidget p{
+        margin-top: -40px;
+    }
+
+    .widgetwidget_newsletterwidgetminimal{
+        margin-top: -20px;
+    }
+
+    .tnp-form{
+        margin-top: -30px;
+    }
+
+    .menu{
+        margin-top: -40px;
+    }
+
+    .widgetwidget_nav_menu{
+        margin-top: -40px;
+    }
+}
